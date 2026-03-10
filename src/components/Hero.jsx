@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <section className="relative overflow-hidden w-full bg-gradient-to-br from-teal-50/90 via-slate-50 to-water-50/70 rounded-2xl border border-slate-200/60 shadow-soft -mb-px">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_rgb(94_234_212_/0.08)_0%,transparent_60%)] rounded-2xl pointer-events-none" aria-hidden="true" />
-      <div className="relative w-full py-14 sm:py-20">
+      <div className="relative w-full py-14 sm:py-20 px-6 sm:px-8 lg:px-10">
         <h2 className="font-display font-semibold text-display-md sm:text-display-lg text-slate-800 mb-5">
           What is eutrophication?
         </h2>

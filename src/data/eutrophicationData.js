@@ -8,11 +8,11 @@ function seededRandom(seed) {
 
 /**
  * Generate 365 days of water quality data (mild to moderate eutrophication).
- * Dates: 2024-04-01 through 2025-03-31
+ * Dates: 2025-04-01 through 2026-03-31
  */
 function generateEutrophicationData() {
   const data = []
-  const startDate = new Date('2024-04-01')
+  const startDate = new Date('2025-04-01')
 
   for (let i = 0; i < 365; i++) {
     const date = new Date(startDate)
